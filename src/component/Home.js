@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="par h-full grid place-content-center text-center">
+    <div className="h-full grid place-content-center text-center">
       <h1 className="text-6xl font-semibold my-5">Mostakimul Karim</h1>
       <h2 className="text-3xl mb-5">Full Stack Developer</h2>
       <hr />

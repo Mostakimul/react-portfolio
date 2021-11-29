@@ -4,7 +4,7 @@ const CommonHeader = ({ title, iconShape }) => {
   return (
     <>
       <div className="flex justify-between items-center mb-3">
-        <h2 className="text-4xl">{title}</h2>
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl">{title}</h2>
         <svg
           className="w-10 h-10"
           fill="none"

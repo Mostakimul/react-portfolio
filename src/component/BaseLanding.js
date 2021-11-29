@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router';
 import Sidebar from './Sidebar';
 import SvgIcon from './SvgIcon';
 
@@ -24,7 +25,7 @@ const BaseLanding = () => {
         </div>
         {/* body */}
         <div className="col-span-10 bg-gray-800 m-4 rounded-lg shadow-lg text-gray-50">
-          <h3>Body</h3>
+          <Outlet />
         </div>
       </div>
     </div>

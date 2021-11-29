@@ -1,9 +1,10 @@
 import './App.css';
+import BaseLanding from './component/BaseLanding';
 
 function App() {
   return (
-    <div className="container">
-      <h3>Mostakimul Portfolio</h3>
+    <div>
+      <BaseLanding />
     </div>
   );
 }

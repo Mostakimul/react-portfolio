@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="h-full grid place-content-center text-center">
-      <h1 className="text-4xl md:text-6xl font-semibold my-5">Mostakimul Karim</h1>
-      <h2 className="text-xl md:text-3xl mb-5">Full Stack Developer</h2>
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold my-5">Mostakimul Karim</h1>
+      <h2 className="text-xl sm:text-2xl md:text-3xl mb-5">Full Stack Developer</h2>
       <hr />
       <div className="mt-5">
         <a

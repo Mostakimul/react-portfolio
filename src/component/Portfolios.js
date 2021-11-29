@@ -22,7 +22,7 @@ const Portfolios = () => {
         iconShape="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
       />
       {/* project body */}
-      <div className="grid grid-cols-3 gap-5 mt-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
         {projects?.map((project) => (
           <div
             key={project.id}

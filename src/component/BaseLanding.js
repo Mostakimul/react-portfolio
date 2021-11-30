@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
-import SvgIcon from './SvgIcon';
 
 const BaseLanding = () => {
   const menus = [
@@ -112,7 +111,28 @@ const BaseLanding = () => {
           <div className="mx-2">
             <Sidebar />
             {/* Connect */}
-            <SvgIcon />
+            <div className="bg-gray-900 py-2 mt-2 px-2 rounded-lg shadow-lg mx-2">
+              <div className="flex justify-center space-x-3">
+                <a
+                  href="https://www.linkedin.com/in/mostakimul/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img
+                    src="/images/linkedin.png"
+                    alt="linkedin"
+                    className="inline-block bg-gray-300 w-4/5 rounded-lg"
+                  />
+                </a>
+                <a href="https://github.com/Mostakimul" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="/images/github.png"
+                    alt="github"
+                    className="inline-block bg-gray-300 w-4/5 rounded-lg"
+                  />
+                </a>
+              </div>
+              <p className="text-xs text-center mt-2">Copyright&#169;2021 - Mostakimul Karim</p>
+            </div>
           </div>
         </div>
         {/* body */}

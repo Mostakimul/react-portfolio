@@ -6,9 +6,13 @@
     "details": [
       "Using the website users can buy olive oils from farms",
       "Users can see the order details under the dashboard, status, and cancel orders.",
-      "Admin can manage products and orders from the admin dashboard."
+      "Admin can manage products and orders from the admin dashboard.",
+      "Admin can add new product from admin dashboard",
+      "User can write review from user dashboard"
     ],
     "image": "/images/amfissa.png",
+    "image2": "/images/amfissa2.png",
+    "image3": "/images/amfissa3.png",
     "live": "https://niche-react.web.app/",
     "client": "https://github.com/Mostakimul/node-react-niche",
     "server": "https://github.com/Mostakimul/node-server-niche"
@@ -20,9 +24,13 @@
     "details": [
       "Tour packages for a user to book on a specific date.",
       "Managing the booking from the user dashboard and seeing the booking status.",
-      "All tour packages and booked are managed from the admin dashboard."
+      "All tour packages and booked are managed from the admin dashboard.",
+      "Admin can add new destinantion from backend dashboard",
+      "New tour package can be published from admin dashboard"
     ],
     "image": "/images/gtour.png",
+    "image2": "/images/gtour2.png",
+    "image3": "/images/gtour3.png",
     "live": "https://react-travel-c7477.web.app/",
     "client": "https://github.com/Mostakimul/node-tour-react",
     "server": "https://github.com/Mostakimul/node-tour-server"
@@ -34,9 +42,13 @@
     "details": [
       "Developed a health care hospital website with a doctor's appointment.",
       "Take appointments online by signing in using google or simple email registration.",
-      "Showing doctors details for taking the appointments"
+      "Showing doctors details for taking the appointments",
+      "User need to sign in for take appointment",
+      "Google sign in can be completed by clicking google sign in"
     ],
     "image": "/images/disin.png",
+    "image2": "/images/disin2.png",
+    "image3": "/images/disin3.png",
     "live": "https://react-healthcare-681a9.web.app/",
     "client": "https://github.com/Mostakimul/react-health-care"
   }

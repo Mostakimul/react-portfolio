@@ -19,6 +19,8 @@ const Home = () => {
       <div className="mt-5">
         <a
           href="/Mostakimul_Karim_Resume.pdf"
+          rel="noopener noreferrer"
+          target="_blank"
           className="bg-gray-900 hover:bg-gray-700 duration-300 transition py-2 px-5 text-lg rounded-lg shadow-lg inline-block mx-1 font-ral">
           Download Resume
         </a>

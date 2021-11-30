@@ -77,21 +77,21 @@ const SingleProject = () => {
               href={project?.live}
               rel="noopener noreferrer"
               target="_blank"
-              className="bg-gray-900 hover:bg-gray-700 duration-300 transition mx-2 rounded-lg shadow-lg py-1.5 px-2">
+              className="bg-gray-900 hover:bg-gray-700 duration-300 transition m-1 rounded-lg shadow-lg py-1.5 px-2">
               Live link
             </a>
             <a
               href={project?.client}
               rel="noopener noreferrer"
               target="_blank"
-              className="bg-gray-900 hover:bg-gray-700 duration-300 transition mx-2 rounded-lg shadow-lg py-1.5 px-2">
+              className="bg-gray-900 hover:bg-gray-700 duration-300 transition m-1 rounded-lg shadow-lg py-1.5 px-2">
               Frontend Code
             </a>
             <a
               href={project?.server}
               rel="noopener noreferrer"
               target="_blank"
-              className="bg-gray-900 hover:bg-gray-700 duration-300 transition mx-2 rounded-lg shadow-lg py-1.5 px-2">
+              className="bg-gray-900 hover:bg-gray-700 duration-300 transition m-1 rounded-lg shadow-lg py-1.5 px-2">
               Server Code
             </a>
           </div>

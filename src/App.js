@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router';
 import './App.css';
 import About from './component/About';
 import BaseLanding from './component/BaseLanding';
+import Blogs from './component/Blogs';
 import Contact from './component/Contact';
 import Education from './component/Education';
 import Experiences from './component/Experiences';
@@ -17,9 +18,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/projects" element={<Portfolios />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/project/:id" element={<SingleProject />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
       </Route>
     </Routes>
   );

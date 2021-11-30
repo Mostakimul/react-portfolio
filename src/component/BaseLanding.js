@@ -100,7 +100,7 @@ const BaseLanding = () => {
         {/* sidebar */}
         <div
           className="hidden md:block md:col-span-3 bg-gray-800 m-4 rounded-lg shadow-lg text-gray-50"
-          style={{ minHeight: '96vh' }}>
+          style={{ minHeight: '95vh' }}>
           <img
             src="/images/Mostakimul_karim.jpg"
             alt="Mostakimul Karim"
@@ -140,7 +140,7 @@ const BaseLanding = () => {
         {/* body */}
         <div
           className="col-span-full md:col-span-9 bg-gray-800 m-4 rounded-lg shadow-lg text-gray-50"
-          style={{ minHeight: '96vh' }}>
+          style={{ minHeight: '95vh' }}>
           <Outlet />
         </div>
       </div>

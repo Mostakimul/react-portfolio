@@ -12,7 +12,7 @@ const SingleProject = () => {
   useEffect(() => {
     setIsLoad(true);
     axios
-      .get(`http://localhost:5000/projects/${id}`)
+      .get(`https://vast-lowlands-02066.herokuapp.com/projects/${id}`)
       .then((res) => {
         setProject(res.data);
       })

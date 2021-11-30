@@ -7,7 +7,7 @@ const Portfolios = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     axios
-      .get('http://localhost:5000/projects')
+      .get('https://vast-lowlands-02066.herokuapp.com/projects')
       .then((res) => {
         setProjects(res.data);
       })

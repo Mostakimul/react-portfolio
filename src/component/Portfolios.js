@@ -29,9 +29,9 @@ const Portfolios = () => {
             key={project._id}
             className="bg-gray-700 p-5 rounded-lg shadow-lg hover:bg-gray-600 duration-300 transition">
             <img src={project.image} alt={project.name} className="w-full rounded-lg" />
-            <h3 className="text-center text-xl font-semibold my-5">{project.name}</h3>
+            <h3 className="text-center text-xl font-semibold font-ubu my-5">{project.name}</h3>
 
-            <div className="flex gap-3 text-sm text-center mt-2 justify-center">
+            <div className="flex gap-3 text-sm text-center mt-2 font-ral justify-center">
               <a
                 href={project?.live}
                 rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const Portfolios = () => {
             <div className="text-center">
               <Link
                 to={`/project/${project._id}`}
-                className="mt-3 inline-block bg-gray-900 rounded-lg shadow-lg py-1.5 w-4/5">
+                className="mt-3 inline-block bg-gray-900 rounded-lg font-ral shadow-lg py-1.5 w-4/5">
                 View Details
               </Link>
             </div>

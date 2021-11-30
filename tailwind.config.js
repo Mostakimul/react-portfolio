@@ -6,7 +6,13 @@ module.exports = {
       center: true,
       padding: '1rem',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        ubu: ['Ubuntu', 'sans-serif'],
+        ral: ['Raleway', 'sans-serif'],
+        tit: ['Titillium Web', 'sans-serif'],
+      },
+    },
   },
   variants: {
     extend: {},

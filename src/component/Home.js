@@ -5,10 +5,12 @@ import Typical from 'react-typical';
 const Home = () => {
   return (
     <div className="h-full grid place-content-center text-center">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold my-5">Mostakimul Karim</h1>
-      <h2 className="text-xl sm:text-2xl md:text-3xl mb-5">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold font-ubu my-5">
+        Mostakimul Karim
+      </h1>
+      <h2 className="text-xl font-tit sm:text-2xl md:text-3xl mb-5">
         <Typical
-          steps={['I am', 1000, 'I am Fullstack Developer...', 500]}
+          steps={['I am a', 1000, 'I am a Fullstack Developer...', 500]}
           loop={Infinity}
           wrapper="p"
         />
@@ -18,12 +20,12 @@ const Home = () => {
         <a
           href="/"
           download="/Mostakimul Karim Resume.pdf"
-          className="bg-gray-900 hover:bg-gray-700 duration-300 transition py-2 px-5 text-lg rounded-lg shadow-lg inline-block mx-1">
+          className="bg-gray-900 hover:bg-gray-700 duration-300 transition py-2 px-5 text-lg rounded-lg shadow-lg inline-block mx-1 font-ral">
           Download Resume
         </a>
         <Link
           to="/contact"
-          className="bg-gray-900 hover:bg-gray-700 duration-300 transition py-2 px-5 text-lg rounded-lg shadow-lg inline-block mx-1">
+          className="bg-gray-900 hover:bg-gray-700 duration-300 transition py-2 px-5 text-lg rounded-lg font-ral shadow-lg inline-block mx-1">
           Contact
         </Link>
       </div>

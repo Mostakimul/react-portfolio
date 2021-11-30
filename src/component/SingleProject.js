@@ -33,7 +33,7 @@ const SingleProject = () => {
       {isLoad && <TheSpinner />}
       {/* Single project body */}
       {!isLoad && (
-        <div>
+        <div className="font-ral">
           {/* images */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             <div className="bg-gray-900 p-2 m-2 rounded-lg shadow-lg">

@@ -52,7 +52,7 @@ const Sidebar = () => {
         <Link
           to={menu.link}
           key={menu.id}
-          className="flex items-center hover:bg-gray-700 transition duration-300 rounded-lg p-1.5">
+          className="flex font-ral items-center hover:bg-gray-700 transition duration-300 rounded-lg p-1.5">
           <svg
             className="w-6 h-6 inline-block"
             fill="none"

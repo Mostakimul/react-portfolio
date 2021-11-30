@@ -59,7 +59,7 @@ const BaseLanding = () => {
         <div className="flex justify-between">
           {/* logo */}
           <div>
-            <h2>MK LOGO</h2>
+            <h2 className="font-ubu">MK LOGO</h2>
           </div>
 
           {/* mobile menu butn */}
@@ -131,7 +131,9 @@ const BaseLanding = () => {
                   />
                 </a>
               </div>
-              <p className="text-xs text-center mt-2">Copyright&#169;2021 - Mostakimul Karim</p>
+              <p className="text-xs font-tit text-center mt-2">
+                Copyright &#169; 2021 - Mostakimul Karim
+              </p>
             </div>
           </div>
         </div>
@@ -147,12 +149,12 @@ const BaseLanding = () => {
         className={`bg-gray-900 md:hidden text-gray-50 w-2/4 md:w-1/6 space-y-6 absolute inset-y-0 left-0 transform md:relative transition duration-200 ease-in md:translate-x-0 ${
           isdashOpen ? '-translate-x-full' : '-translate-x-0'
         }`}>
-        <nav onClick={showSideBar}>
+        <nav onClick={showSideBar} className="pt-5">
           {menus.map((menu) => (
             <Link
               to={menu.link}
               key={menu.id}
-              className="flex items-center hover:bg-gray-700 transition duration-300 rounded-lg p-1.5 m-2 bg-gray-800">
+              className="flex font-ral items-center hover:bg-gray-700 transition duration-300 rounded-lg p-1.5 m-2 bg-gray-800">
               <svg
                 className="w-6 h-6 inline-block"
                 fill="none"

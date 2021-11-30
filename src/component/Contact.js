@@ -41,16 +41,16 @@ const Contact = () => {
       />
       {/* contact body */}
       <div className="pt-5">
-        <h2 className="text-center text-xl sm:text-2xl font-semibold py-5">Lets Talk</h2>
+        <h2 className="text-center text-xl sm:text-2xl font-semibold font-ubu py-5">Lets Talk</h2>
         {isLoading && <TheSpinner />}
         {isSubmitted && (
-          <p className="text-xs py-1.5 my-2 text-center font-semibold text-gray-50 bg-green-600 px-1.5 rounded-lg shadow-lg w-2/4 mx-auto">
+          <p className="text-xs font-ral py-1.5 my-2 text-center font-semibold text-gray-50 bg-green-600 px-1.5 rounded-lg shadow-lg w-2/4 mx-auto">
             Message sent successfully!!!
           </p>
         )}
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="sm:w-4/5 md:w-3/4 lg:w-2/4 mx-auto text-center">
+          className="sm:w-4/5 md:w-3/4 lg:w-2/4 mx-auto text-center font-ral">
           <input
             type="text"
             {...register('name', { required: true })}
